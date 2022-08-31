@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -54,6 +56,11 @@ h1 {
     background-color: #e5e7eb;
     color: white;
     width: 500px;
+    display: flex;
+}
+
+.hero-image img {
+    width: 100%;
 }
 
 button {
@@ -136,9 +143,13 @@ h3 {
 .sign-up {
     display: flex;
     justify-content: space-around;
+    align-content: center;
     padding: 50px 0px;
+    margin: 100px 200px;
+    border-radius: 20px;
 }
 
 .sign-up button {
     border: 1px white solid;
+    align-self: center;
 }
