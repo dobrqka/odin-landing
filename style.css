@@ -77,12 +77,20 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
-.content-images {
+.boxes {
     display: flex;
     gap: 80px;
-    padding: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .image {
@@ -92,20 +100,10 @@ button {
     height: 200px;
 }
 
-.content-text {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-}
-
 .text {
     width: 204px;
     text-align: center;
-}
-
-.sign-up {
-    background-color: #3882f6;
-    color: white;
+    padding-top: 10px;
 }
 
 .footer {
@@ -141,6 +139,8 @@ h3 {
 }
 
 .sign-up {
+    background-color: #3882f6;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-content: center;
